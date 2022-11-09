@@ -273,11 +273,11 @@ export default async function handler(
       max_tokens: 256,
     });
 
-    if (chatResponse.data.choices?.[0].text?.includes("\n")) {
-      chatResponse.data.choices[0].text = chatResponse.data.choices?.[0].text
-        .trim()
-        .split("\n")[0];
-    }
+    // if (chatResponse.data.choices?.[0].text?.includes("\n")) {
+    //   chatResponse.data.choices[0].text = chatResponse.data.choices?.[0].text
+    //     .trim()
+    //     .split("\n")[0];
+    // }
   } catch (err) {
     console.error(err);
     // @ts-expect-error

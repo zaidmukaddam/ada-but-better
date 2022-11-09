@@ -52,6 +52,13 @@ const Home: NextPage = () => {
   return (
     <>
       <Head>
+        <title>Ada but better</title>
+        <meta
+          name="description"
+          content={
+            "Ada is a chatbot with hundreds of hardcoded responses. Ada but better is better than that - absolutely nothing is hardcoded!\n\nAda but better is a chatbot using OpenAI's GPT-3 engine. It's not the brightest, but it's definitely smarter than Ada. Never refer to Ada but better as Ada!"
+          }
+        />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" type="image/x-icon" href="/images/logo.png" />
         <meta property="og:title" content="Ada but better" />
